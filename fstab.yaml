@@ -1,5 +1,5 @@
 mountpoints:
   /: 
-    url: https://author-p99452-e916802.adobeaemcloud.com/bin/franklin.delivery/tuckerelliott/securbank-aem-ue/main
+    url: https://author-p99452-e916802.adobeaemcloud.com/bin/franklin.delivery/tuckerelliott/credit-acceptance/main
     type: markup
     suffix: ".html?wcmmode=disabled"
