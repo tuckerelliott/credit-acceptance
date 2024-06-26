@@ -157,6 +157,33 @@
     ]
   },
   {
+    "id": "cards",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Type",
+        "description": "Select card layout type",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Resources",
+            "value": "resources"
+          },
+          {
+            "name": "Info",
+            "value": "info"
+          },
+          {
+            "name": "Reviews",
+            "value": "reviews"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
