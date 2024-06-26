@@ -164,7 +164,6 @@
         "name": "classes",
         "value": "",
         "label": "Type",
-        "description": "Select card layout type",
         "valueType": "string",
         "options": [
           {
