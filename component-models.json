@@ -161,10 +161,10 @@
     "fields": [
       {
         "component": "select",
+        "valueType": "string",
         "name": "classes",
         "value": "",
         "label": "Type",
-        "valueType": "string",
         "options": [
           {
             "name": "Resources",
