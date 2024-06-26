@@ -11,7 +11,7 @@
  */
 
  :root {
-  /* colors */
+  /* colors 
   --link-color: #026169;
   --link-hover-color: #3E6470;
   --background-color: #fff;
@@ -19,23 +19,48 @@
   --highlight-background-color: #ccc;
   --text-color: #2C2C2C;
 
-  /* fonts */
+  /* fonts 
   --body-font-family: 'adobe-clean', helvetica, ubuntu, roboto, noto, sans-serif;
   --heading-font-family: var(--body-font-family);
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
-  /* body sizes */
+  /* body sizes 
   --body-font-size-m: 22px;
-  --body-font-size-s: 18px;
+  --body-font-size-s: 1rem;
   --body-font-size-xs: 16px;
 
-  /* heading sizes */
+  /* heading sizes 
   --heading-font-size-xxl: 48px;
   --heading-font-size-xl: 40px;
   --heading-font-size-l: 32px;
   --heading-font-size-m: 24px;
   --heading-font-size-s: 20px;
   --heading-font-size-xs: 18px;
+  */
+
+/* fonts */
+--heading-font-family: "Acceptance Bold";
+--body-font-family: "Visby Regular", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+--fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
+
+/* colors */
+--text-color: ##000;
+--link-color: #0d6efd;
+--link-hover-color: Invalid input color;
+--background-color: #ffffff;
+--overlay-background-color: #eeeeee;
+--highlight-background-color: #cccccc;
+
+/* sizes */
+--heading-font-size-xxl: 53px;
+--heading-font-size-xl: 48px;
+--heading-font-size-l: 32px;
+--heading-font-size-m: 22px;
+--heading-font-size-s: 20px;
+--heading-font-size-xs: 16px;
+--body-font-size-m: 16px;
+--body-font-size-s: 16px;
+
 
   /* nav height */
   --nav-height: 72px;
@@ -52,8 +77,8 @@
   :root {
     --heading-font-size-xxl: 60px;
     --heading-font-size-xl: 48px;
-    --heading-font-size-l: 36px;
-    --heading-font-size-m: 30px;
+    --heading-font-size-l: 32px;
+    --heading-font-size-m: 22px;
     --heading-font-size-s: 24px;
     --heading-font-size-xs: 22px;
   }
@@ -85,6 +110,10 @@ h4, h5, h6 {
   margin-top: 1em;
   margin-bottom: .5em;
   scroll-margin: calc(var(--nav-height) + 1em);
+}
+
+h3 {
+  font-family: Acceptance Medium;
 }
 
 h1 { font-size: var(--heading-font-size-xxl) }
@@ -140,7 +169,8 @@ a:hover {
 
 /* buttons */
 a.button:any-link, button {
-  font-family: var(--body-font-family);
+  font-family: Acceptance Bold;
+  font-size: 12px;
   display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
@@ -150,13 +180,13 @@ a.button:any-link, button {
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
+  color: #171714;
+  background-color: #ffb800;
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
+  border-radius: .375rem;
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
@@ -240,8 +270,3 @@ main .section.highlight {
   text-align: center;
   font-size: 36px;
 }
-
-
-main .columns-container  {
-  background-color: #F3F2F6;
-} 

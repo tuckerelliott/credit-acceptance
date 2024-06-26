@@ -58,7 +58,14 @@ header nav p {
 }
 
 header nav a:any-link {
-  color: currentcolor;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: .7px;
+  line-height: 22px;
+  font-family: Acceptance DemiBold;
+  color: #171714;
+  text-decoration: none;
 }
 
 /* hamburger */
@@ -176,7 +183,7 @@ header nav .nav-sections ul  {
   padding-left: 0;
   font-size: var(--body-font-size-s);
   font-weight: 500;
-  justify-content: end;
+  justify-content: start;
 }
 
 header nav .nav-sections ul > li {
