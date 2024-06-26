@@ -163,8 +163,7 @@
         "component": "select",
         "valueType": "string",
         "name": "classes",
-        "value": "",
-        "label": "Type",
+        "label": "Card Type",
         "options": [
           {
             "name": "Resources",
