@@ -227,7 +227,7 @@
         "component": "text-input",
         "valueType": "string",
         "name": "imageAlt",
-        "label": "Alt",
+        "label": "Alt Text",
         "value": ""
       },
       {
