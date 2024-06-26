@@ -30,3 +30,8 @@
     order: unset;
   }
 }
+
+body > main > div.section.highlight.columns-container > div.columns-wrapper > div > div > div {
+  text-align: center;
+  border-left: 5px dotted #ffb800;
+}
