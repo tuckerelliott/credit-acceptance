@@ -180,7 +180,7 @@ body > main > div.section.info.cards-container > div {
 
 .cards .cards-card-body > *:first-child {
   margin-top: 0;
-  max-height: 130px !important;
+  /* max-height: 130px !important; */
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: break-spaces;
