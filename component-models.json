@@ -164,11 +164,24 @@
     "id": "cards",
     "fields": [
       {
-        "component": "text-input",
+        "component": "select",
+        "valueType": "string",
         "name": "classes",
-        "value": "",
-        "label": "Style",
-        "valueType": "string"
+        "label": "Card Type",
+        "options": [
+          {
+            "name": "Resources",
+            "value": "resources"
+          },
+          {
+            "name": "Info",
+            "value": "info"
+          },
+          {
+            "name": "Reviews",
+            "value": "reviews"
+          }
+        ]
       }
     ]
   },
