@@ -1,32 +1,5 @@
 [
   {
-    "id": "page-metadata",
-    "fields": [
-      {
-        "component": "text-input",
-        "valueType": "string",
-        "name": "pageTitle",
-        "value": "",
-        "label": "Page Title"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "jcr:description",
-        "value": "",
-        "label": "Description"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "keywords",
-        "value": "",
-        "label": "Keywords",
-        "multi": true
-      }
-    ]
-  },
-  {
     "id": "title",
     "fields": [
       {
@@ -157,31 +130,6 @@
     ]
   },
   {
-    "id": "cards",
-    "fields": [
-      {
-        "component": "select",
-        "valueType": "string",
-        "name": "classes",
-        "label": "Card Type",
-        "options": [
-          {
-            "name": "Resources",
-            "value": "resources"
-          },
-          {
-            "name": "Info",
-            "value": "info"
-          },
-          {
-            "name": "Reviews",
-            "value": "reviews"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "card",
     "fields": [
       {
@@ -226,7 +174,7 @@
         "component": "text-input",
         "valueType": "string",
         "name": "imageAlt",
-        "label": "Alt Text",
+        "label": "Alt",
         "value": ""
       },
       {
@@ -354,6 +302,50 @@
         "value": "",
         "label": "Fragment Path",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "page-metadata",
+    "fields": [
+      {
+        "component": "text",
+        "name": "experiment",
+        "label": "Experiment",
+        "description": "Start an expriement by setting an Experiment ID"
+      },
+      {
+        "component": "select",
+        "name": "experimentStatus",
+        "label": "Experiment Status",
+        "options": [
+          {
+            "name": "Active",
+            "value": "active"
+          },
+          {
+            "name": "Inactive",
+            "value": "inactive"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "name": "experimentSplit",
+        "label": "Experiment Split",
+        "multi": true
+      },
+      {
+        "component": "text",
+        "name": "experimentAudience",
+        "label": "Experiment Audience",
+        "multi": true
+      },
+      {
+        "component": "text",
+        "name": "experimentVariants",
+        "label": "Experiment Variants",
+        "multi": true
       }
     ]
   }
