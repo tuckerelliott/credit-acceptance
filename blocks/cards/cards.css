@@ -69,6 +69,13 @@
 
 .cards.reviews.block .cards-card-body > *:first-child {
   margin-top: 0;
+    max-height: 130px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: break-spaces;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
 }
 
 .cards > ul {
@@ -151,6 +158,13 @@
 
 .reviews .cards .cards-card-body > *:first-child {
   margin-top: 0;
+  max-height: 130px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  display: -webkit-box;
 }
 
 body > main > div.section.info.cards-container > div {
@@ -176,17 +190,6 @@ body > main > div.section.info.cards-container > div {
 
 .cards .cards-card-body .button-container {
   text-align: center;
-}
-
-.cards .cards-card-body > *:first-child {
-  margin-top: 0;
-  /* max-height: 130px !important; */
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: break-spaces;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
-  display: -webkit-box;
 }
 
 .cards > ul > li img {
