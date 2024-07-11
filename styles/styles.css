@@ -56,7 +56,7 @@
 --heading-font-size-xl: 48px;
 --heading-font-size-l: 32px;
 --heading-font-size-m: 22px;
---heading-font-size-s: 20px;
+--heading-font-size-s: 16px;
 --heading-font-size-xs: 16px;
 --body-font-size-m: 16px;
 --body-font-size-s: 16px;
@@ -79,7 +79,7 @@
     --heading-font-size-xl: 48px;
     --heading-font-size-l: 32px;
     --heading-font-size-m: 22px;
-    --heading-font-size-s: 24px;
+    --heading-font-size-s: 16px;
     --heading-font-size-xs: 22px;
   }
 }

@@ -14,10 +14,10 @@ main .hero {
 }
 
 main .hero .hero-body {
-  max-width: 1280px;
-  margin-left: auto;
+  max-width: 600px;
+  margin-left: 100px;
   margin-right: auto;
-  margin-bottom: 0;
+  margin-top: 50px;
   color: white;
   position: relative;
   z-index: 1;
@@ -37,6 +37,20 @@ main .hero h2 {
   margin-right: auto;
   color: white;
 }
+
+main .hero h5 {
+  font-family: Visby DemiBold;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: .3px;
+  line-height: 22px;
+  display: inline-flex;
+  background-color: rgb(252, 252, 252);
+  color: rgb(27, 27, 27);
+  border-bottom: 2px solid #fff;
+  padding: .5rem .5rem .25rem .5rem;
+}
+
 
 main .hero picture {
   position: absolute;
