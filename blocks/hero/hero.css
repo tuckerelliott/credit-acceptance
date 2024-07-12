@@ -80,7 +80,7 @@ main .hero img {
 
 @media (width >= 1280px) {
   main .hero img {
-    object-fit: cover;
+    object-fit: fill;
     width: 100%;
     height: 100%;
   }
