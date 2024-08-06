@@ -131,10 +131,6 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
-  document.documentElement.lang = 'en';
-  decorateTemplateAndTheme();
-  const main = doc.querySelector('main');
-
   if (getMetadata('experiment')
     || Object.keys(getAllMetadata('campaign')).length
     || Object.keys(getAllMetadata('audience')).length) {
@@ -143,6 +139,9 @@ async function loadEager(doc) {
     await runEager(document, { audiences: AUDIENCES }, pluginContext);
   }
 
+  document.documentElement.lang = 'en';
+  decorateTemplateAndTheme();
+  const main = doc.querySelector('main');
 
   if (main) {
     decorateMain(main);
